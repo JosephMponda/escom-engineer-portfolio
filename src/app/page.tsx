@@ -41,9 +41,14 @@ export default function EnhancedPortfolio() {
                 
                 {/* Profile image */}
                 <div className="absolute inset-8 rounded-full overflow-hidden border-4 border-cyan-400/50 shadow-2xl shadow-cyan-400/30">
-                  <div className="w-full h-full bg-gradient-to-br from-violet-900 to-cyan-900" />
+                  <img
+                    src="/sibo.png"
+                    alt="ENG. SIBONGILE Profile"
+                    className="w-full h-full object-cover"
+                    style={{ filter: 'grayscale(20%) saturate(130%) brightness(110%)' }}
+                  />
                 </div>
-                
+                                
                 {/* Corner accents */}
                 <div className="absolute -top-2 -left-2 w-4 h-4 border-t-2 border-l-2 border-cyan-400" />
                 <div className="absolute -top-2 -right-2 w-4 h-4 border-t-2 border-r-2 border-cyan-400" />
