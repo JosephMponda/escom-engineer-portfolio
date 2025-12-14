@@ -8,8 +8,8 @@ import SectionWrapper from '@/components/SectionWrapper';
 import HexaSkills from '@/components/HexaSkills';
 
 // --- Hero Section Content ---
-const CLIENT_NAME = "ENG. [Client Name]";
-const UNIVERSITY_NAME = "[University Name]";
+const CLIENT_NAME = "ENG. Sibongile Nyirenda";
+const UNIVERSITY_NAME = "Malawi University of Business and Applied Sciences";
 
 // --- Main Page Component ---
 export default function HomePage() {
@@ -75,18 +75,18 @@ export default function HomePage() {
           </section>
           
           {/* --- ESCOM ROLE SECTION --- */}
-          <SectionWrapper id="escom" title="ESCOM Systems Integration">
+          <SectionWrapper id="escom" title="ESCOM SCADA division engineer">
             <div className="bg-accent-violet/10 p-8 rounded-lg shadow-xl border border-accent-violet/30">
                 <h3 className="text-3xl font-bold text-accent-cyan mb-4">Systems & Network Specialist</h3>
                 <p className="text-lg text-gray-300 mb-6 border-l-2 border-accent-cyan pl-3">
-                    Focus on managing and optimizing high-availability telecommunication links that form the backbone for the national power grid&apos;s operational systems.
+                    Focus on managing and optimizing high-standard electrical supply and customer satisfaction.
                 </p>
 
                 <h4 className="text-xl font-semibold text-white mb-3">Key Technical Achievements:</h4>
                 <ul className="list-disc list-inside space-y-2 text-gray-400 font-mono">
-                    <li>Engineered a **99.999% uptime** Microwave Link Redundancy system across 5 substations.</li>
-                    <li>Successfully migrated the legacy SCADA network infrastructure to an IPv6/MPLS backbone, reducing latency by **40%**.</li>
-                    <li>Deployed a Fibre Optic ring network in the Southern Region, significantly enhancing data capacity for remote terminal units (RTUs).</li>
+                    <li>Engineered a network anomaly AI model that also predicted the failure mode of a WiFi router</li>
+                    <li>Successfully completed SCADA onboarding training.</li>
+                    <li>Tirelessly monitoring electrical supply frequency consistency to ensure it meets industry standards.</li>
                 </ul>
             </div>
           </SectionWrapper>
@@ -97,12 +97,12 @@ export default function HomePage() {
                 <div className="bg-bg-midnight/50 p-6 rounded-lg border-l-4 border-accent-cyan/50">
                     <p className="text-2xl font-bold text-white">B.Eng. Electronics & Telecommunications</p>
                     <p className="text-xl text-accent-violet">{UNIVERSITY_NAME}</p>
-                    <p className="text-sm font-mono text-gray-400 mt-2">Graduation: November 20XX</p>
+                    <p className="text-sm font-mono text-gray-400 mt-2">Graduation: 2026</p>
                 </div>
                 
                 <div className="bg-bg-midnight/50 p-6 rounded-lg border-l-4 border-accent-violet/50">
-                    <p className="text-xl font-semibold text-white mb-2">Final Year Project Highlight: IoT Energy Monitoring System</p>
-                    <p className="text-gray-400">Designed and implemented a low-power, wide-area network (LPWAN) solution for real-time power consumption monitoring, utilizing Python for data processing and a custom dashboard interface.</p>
+                    <p className="text-xl font-semibold text-white mb-2">Final Year Project Highlight: Network anomaly AI powered system</p>
+                    <p className="text-gray-400">Designed and implemented a low-cost AI model, utilizing Python for data processing and a custom dashboard interface.</p>
                 </div>
             </div>
           </SectionWrapper>
