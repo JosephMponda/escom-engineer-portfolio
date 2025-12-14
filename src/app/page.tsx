@@ -36,7 +36,7 @@ export default function HomePage() {
               "
             >
               <img
-                src="/profile-placeholder.jpg" 
+                src="/sibo.png" 
                 alt={`${CLIENT_NAME} Profile`}
                 className="w-full h-full object-cover animate-glitch-pulse" 
                 style={{ filter: 'grayscale(80%) saturate(150%) brightness(120%)' }}
